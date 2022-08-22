@@ -7,4 +7,10 @@ This is my personal website where you can find information about my professional
 ![image](https://user-images.githubusercontent.com/98240550/185524941-f95aff71-fd4d-49ce-b5a9-7a4eb4c032c4.png)
 
 
+## Sponsor 💛
+
+Give a ⭐ if you like this website!
+<br>
+
+<a href="https://www.buymeacoffee.com/DianaVCruz"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
 
