@@ -106,7 +106,11 @@
     "work4-work-title":"Upholstery WebSite",
     "work4-detail-title":"Website for upholstery",
     "work4-detail-description":"Connection to a database to manage the work. It also has an administration module for the site where you can do CRUD. In addition to being a site adapted to dark and light mode, it is completely responsive.",
-    "work4-detail-span1":"11 Aug, 2022"
+    "work4-detail-span1":"11 Aug, 2022",
+    "work5-work-title":"Dynamic form",
+    "work5-detail-title":"Dynamic form",
+    "work5-detail-description":"Simulation of purchase, filling in the form with a card dynamically",
+    "work5-detail-span1":"24 Aug, 2022"
   },
   "contact":{
     "contact-h2":"Contact me",

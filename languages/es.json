@@ -96,7 +96,10 @@
     "work4-work-title":"Sitio Web de tapicería",
     "work4-detail-title":"Sitio Web para tapicería",
     "work4-detail-description":"Conexión a una base de datos para gestionar el trabajo. También tiene un módulo de administración para el sitio donde puedes hacer CRUD. Además de ser un sitio adaptado a modo oscuro y claro, es completamente responsive.",
-    "work4-detail-span1":"11 de agosto, 2022"
+    "work5-work-title":"Formulario Dinámico",
+    "work5-detail-title":"Formulario Dinámico",
+    "work5-detail-description":"Simulación de compra, rellenando formulario con tarjeta de forma dinámica.",
+    "work5-detail-span1":"24 de agosto, 2022"
   },
   "contact":{
     "contact-h2":"Contactame",
