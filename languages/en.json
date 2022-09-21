@@ -110,7 +110,11 @@
     "work5-work-title":"Dynamic form",
     "work5-detail-title":"Dynamic form",
     "work5-detail-description":"Simulation of purchase, filling in the form with a card dynamically",
-    "work5-detail-span1":"24 Aug, 2022"
+    "work5-detail-span1":"24 Aug, 2022",
+    "work6-work-title":"JS Projects",
+    "work6-detail-title":"Gallery Projects JS",
+    "work6-detail-description":"Projects worked with JavaScript, practicing with Fetch, local storage, template string and more...",
+    "work6-detail-span1":"20 Sept 2022"
   },
   "contact":{
     "contact-h2":"Contact me",

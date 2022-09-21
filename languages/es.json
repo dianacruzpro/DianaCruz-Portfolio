@@ -99,7 +99,11 @@
     "work5-work-title":"Formulario Dinámico",
     "work5-detail-title":"Formulario Dinámico",
     "work5-detail-description":"Simulación de compra, rellenando formulario con tarjeta de forma dinámica.",
-    "work5-detail-span1":"24 de agosto, 2022"
+    "work5-detail-span1":"24 de agosto, 2022",
+    "work6-work-title":"Proyectos JavaScript",
+    "work6-detail-title":"Galería de Proyectos JavaScript",
+    "work6-detail-description":"Proyectos trabajados con JavaScript, practicando con Fetch, local storage, template string y mucho mas...",
+    "work6-detail-span1":"Septiembre 20 de 2022"
   },
   "contact":{
     "contact-h2":"Contactame",
