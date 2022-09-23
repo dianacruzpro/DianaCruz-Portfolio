@@ -7,10 +7,10 @@
     "contact":"<i class='nav__i fa fa-comments'></i>Contact"
   },
   "home":{
-    "hello-text":"Hello!, my name is  <span class='home__name'>Diana Cruz</span>",
+    "hello-text":"Hi there!👋 my name is  <span class='home__name'>Diana Cruz</span>",
     "my-profession":"I'm ",
     "profession-description":"I am a frontend developer passionate about technology 😍. I have experience creating and designing responsive websites.",
-    "btn-homeToWorks":"Last works"
+    "btn-homeToWorks":"<i class='fa-solid fa-briefcase'></i> Last works"
   },
   "about":{
     "title-about":"About me",
@@ -123,6 +123,6 @@
     "btn-contact":"Write me <i class='fa-solid fa-arrow-right contact__button-icon'></i>",
     "contact-title-h3":"Send me an email",
     "contact-subtitle-h4":"I'll answer you ASAP",
-    "value-submit":"Send Message"
+    "value-submit":"<i class='fa-solid fa-paper-plane'></i> Send Message"
   }
 }

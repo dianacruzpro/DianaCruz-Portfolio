@@ -7,10 +7,10 @@
     "contact":"<i class='nav__i fa fa-comments'></i>Contacto"
   },
   "home":{
-    "hello-text":"Hola! Mi nombre es <span class='home__name'>Diana Cruz</span>",
+    "hello-text":"Hola!👋 Mi nombre es <span class='home__name'>Diana Cruz</span>",
     "my-profession":"Soy ",
     "profession-description":"Una desarrolladora frontend apasionada por la tecnología 😍. Tengo experiencia creando y diseñando sitios web responsivos.",
-    "btn-homeToWorks":"Mis trabajos"
+    "btn-homeToWorks":"<i class='fa-solid fa-briefcase'></i> Mis trabajos"
   },
   "about":{
     "title-about":"Sobre mi",
@@ -112,6 +112,6 @@
     "btn-contact":"Escribeme <i class='fa-solid fa-arrow-right contact__button-icon'></i>",
     "contact-title-h3":"Envíame un correo",
     "contact-subtitle-h4":"Responderé tan pronto como sea posible",
-    "value-submit":"Enviar Mensaje"
+    "value-submit":"<i class='fa-solid fa-paper-plane'></i> Enviar Mensaje"
   }
 }
