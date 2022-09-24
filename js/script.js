@@ -68,15 +68,15 @@ window.addEventListener("load",()=>{
 
       for(let j=0; j<totalNavList; j++){
 
-        if(navList[j].querySelector("a").classList.contains("active")){
+        if(navList[j].querySelector("a").classList.contains("nav__a--active")){
 
           addBackSection(j);
           //allSection[j].classList.add("back-section");
         }
-        navList[j].querySelector("a").classList.remove("active");
+        navList[j].querySelector("a").classList.remove("nav__a--active");
 
       }
-      this.classList.add("active")
+      this.classList.add("nav__a--active")
       showSection(this);
       if(window.innerWidth < 1200){
         asideSectionTogglerBtn();
@@ -99,18 +99,18 @@ window.addEventListener("load",()=>{
   function showSection(element){
 
       for(let i=0; i<totalSection; i++){
-        allSection[i].classList.remove("active");
+        allSection[i].classList.remove("section--active");
       }
       const target = element.getAttribute("href").split("#")[1];
-      document.querySelector("#" + target).classList.add("active")
+      document.querySelector("#" + target).classList.add("section--active")
   }
 
   function updateNav(element){
     for(let i=0; i<totalNavList; i++){
-      navList[i].querySelector("a").classList.remove("active");
+      navList[i].querySelector("a").classList.remove("nav__a--active");
       const target = element.getAttribute("href").split("#")[1];
       if(target === navList[i].querySelector("a").getAttribute("href").split("#")[1]){
-        navList[i].querySelector("a").classList.add("active");
+        navList[i].querySelector("a").classList.add("nav__a--active");
       }
     }
   };

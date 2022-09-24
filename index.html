@@ -38,23 +38,23 @@
   <script defer src="js/script.js"></script>
 </head>
 <body class="dark">
-  <div class="loader__container" id="loader">
-    <div class="center">
-      <figure class="figure__logo"><video class="video__logo" src="./images/negro.mp4" autoplay muted loop></video></figure>
+  <div class="loader" id="loader">
+    <div class="loader__center">
+      <figure class="loader__logo"><video playsinline loading="lazy" class="loader__video" src="./images/negro.mp4" autoplay muted loop></video></figure>
     </div>
   </div>
   <!--!===========Main Container Start===========-->
-  <div class="main__container">
+  <div class="main">
     <!--***===========Aside Start===========-->
     <div class="aside">
-      <div class="aside__logo">
+      <div class="aside__logo logo">
         <a href="index.html" class="logo__a"><span class="logo__span">D</span>iana<span class="logo__span">C</span>ruz</a>
       </div>
-      <div class="aside__toggler">
+      <div class="aside__toggler toggler">
         <span class="toggler__span"></span>
       </div>
-      <ul class="aside__nav">
-        <li class="nav__li"><a data-section="aside-nav" data-value="home" href="#home" class="nav__a active">
+      <ul class="aside__nav nav">
+        <li class="nav__li"><a data-section="aside-nav" data-value="home" href="#home" class="nav__a nav__a--active">
           <i class="nav__i fa fa-home"></i>Home
         </a></li>
         <li class="nav__li"><a data-section="aside-nav" data-value="about" href="#about" class="nav__a">
@@ -70,16 +70,16 @@
           <i class="nav__i fa fa-comments"></i>Contact
         </a></li>
       </ul>
-      <div class="aside__language">
+      <div class="aside__language language">
         <span class="language__en">EN</span>
-        <input class="language__check" type="checkbox" value="language">
+        <input class="language__check" aria-label="language" type="checkbox" value="language">
         <span class="language__es">ES</span>
       </div>
     </div>
     <!--?===========Main Content Start===========-->
     <div class="main__content">
       <!--***==========Home section=============-->
-      <section class="section home active" id="home">
+      <section class="section home section--active" id="home">
         <div class="container">
           <div class="row">
             <div class="home__lines home__lines-1"></div>
@@ -289,7 +289,7 @@
                         <div class="timeline__item">
                           <div class="circle__dot"></div>
                           <h3 class="timeline__date" data-section="about" data-value="education-timeline-date1">
-                            <i class="timeline__date-i fa fa-calendar"></i>2019 - currently studying
+                            <i class="timeline__date-i fa fa-calendar"></i> 2019 - currently studying
                           </h3>
                           <h4 class="timeline__title" data-section="about" data-value="education-timeline-title1">Computer and Systems Engineering</h4>
                           <p class="timeline__text" data-section="about" data-value="education-timeline-text1">Since 2019 I started studying and so far, I'm in the 7th cycle at the <strong>Pedagogical University of El Salvador</strong>.</p> 
@@ -297,18 +297,53 @@
                         <div class="timeline__item">
                           <div class="circle__dot"></div>
                           <h3 class="timeline__date" data-section="about" data-value="education-timeline-date2">
-                            <i class="timeline__date-i fa fa-calendar"></i>2020 (1 year)
+                            <i class="timeline__date-i fa fa-calendar"></i> 2021 (1 year)
                           </h3>
                           <h4 class="timeline__title" data-section="about" data-value="education-timeline-title2">Advance English Module 1-3</h4>
-                          <p class="timeline__text" data-section="about" data-value="education-timeline-text2">At <strong>Capucom</strong> I recieved English clasess financed by <strong>Insaforp</strong>, located in Santa Tecla, La Libertad.</p>
+                          <p class="timeline__text" data-section="about" data-value="education-timeline-text2">Putting my knowledge of advanced grammar into practice.</p> 
                         </div>
                         <div class="timeline__item">
                           <div class="circle__dot"></div>
                           <h3 class="timeline__date" data-section="about" data-value="education-timeline-date3">
-                            <i class="timeline__date-i fa fa-calendar"></i>2019 (1 year)
+                            <i class="timeline__date-i fa fa-calendar"></i> 2021 (1 year)
                           </h3>
-                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title3">Intermediate English Module 1-3</h4>
-                          <p class="timeline__text" data-section="about" data-value="education-timeline-text3">At <strong>Capucom</strong> I recieved English clasess financed by <strong>Insaforp</strong>, located in Santa Tecla, La Libertad.</p>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title3">Robotics. Capucom-Insaforp</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date4">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2020 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title4">Video production with Adobe premiere. Ricaldone-Insaforp</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date5">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2019 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title5">Information Technology Security, Audit and Risks, COESAR3, ISACA.</h4>
+                          <p class="timeline__text" data-section="about" data-value="education-timeline-text5">Assess the security posture and IT infrastructure of an organization.</p> 
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date6">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2016 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title6">Creating Macromedia Dreamweaver Web Pages, CEFINSA, Adobe.</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date7">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2016 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title7">Computer maintenance, CEFINSA.</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date8">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2015 - 2016
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title8">Leadership Club, Glasswing International.</h4>
                         </div>
                       </div>
                     </div>
@@ -707,15 +742,15 @@
               <h2 class="section__title-h2" data-section="contact" data-value="contact-h2">Contact Me</h2>
             </div>
           </div>
-           <h3 class="contact__title paddx-15" data-section="contact" data-value="contact-subtitle1">Have You Any Questions ?</h3>
-           <h4 class="contact__subtitle paddx-15"  data-section="contact" data-value="contact-subtitle2">I'm at your services</h4>
-          
-          <!-- <h3 class="contact__title paddx-15" data-section="contact" data-value="contact-title-h3">SEND ME AN EMAIL</h3>
-          <h4 class="contact__subtitle paddx-15" data-section="contact" data-value="contact-subtitle-h4">
-          I'll answer you ASAP</h4> -->
-          <!--========Contact Form Start========-->
+           
           <div class="contact__flex">
+            
             <div class="row row-contact">
+              <div class="contact__heading paddx-15">
+                <h3 class="contact__title" data-section="contact" data-value="contact-subtitle1">Have You Any Questions ?</h3>
+                <h4 class="contact__subtitle"  data-section="contact" data-value="contact-subtitle2">I'm at your services</h4>
+              </div>
+              
               <form action="https://formsubmit.co/saravcruz1501@gmail.com" method="POST" id="form" class="contact__form">
                 <div class="row">
                   <div class="form__item col__6 paddx-15">
