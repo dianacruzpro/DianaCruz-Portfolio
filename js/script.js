@@ -17,14 +17,6 @@ styleSwitcherToggle.addEventListener("click",()=>{
   document.querySelector(".style__switcher").classList.toggle("open");
 })
 
-/* hide style switcher on croll*/
-window.addEventListener("scroll",() => {
-  if(document.querySelector(".style__switcher").classList.contains("open"))
-  {
-    document.querySelector(".style__switcher").classList.remove("open");
-  }
-})
-
 /**=======Theme Colors=========== */
 const alternateStyles = document.querySelectorAll(".alternate__style");
 function setActiveStyle(color){
