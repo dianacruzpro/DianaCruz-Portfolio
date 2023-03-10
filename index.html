@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Diana Cruz WebSite"/>
+  <meta name="description" content="Personal WebSite with information about my professional profile, experience and skills, as well as the projects I have worked on."/>
+  <link rel="icon" href="./images/logosquare-orange.png">
+  <title>Diana Cruz</title>
+  <!-- ============ Fonts ============== -->
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- ============ BOXICONS ============== -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!-- ============ CSS SWIPER ============== -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- ============ CSS FILES ============== -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!--=========Style Switcher============-->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate__style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate__style" title="color-2">
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate__style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate__style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate__style" title="color-5" disabled>
+
+  <!-- ===========  JS FILES =========== -->
+  <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <!--==============js-efect-typing===============-->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <!--==============js-mixitup filter===============-->
+  <script defer src="js/mixitup.min.js"></script>
+  <!--==============js-swiper===============-->
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!--==============js-main===============-->
+  <script defer src="js/script.js"></script>
+</head>
+<body class="dark">
+  <div class="loader" id="loader">
+    <div class="loader__center">
+      <figure class="loader__logo"><video playsinline class="loader__video" src="./images/negro.mp4" autoplay muted loop></video></figure>
+    </div>
+  </div>
+  <!--!===========Main Container Start===========-->
+  <div class="main">
+    <!--***===========Aside Start===========-->
+    <div class="aside">
+      <div class="aside__logo logo">
+        <a href="index.html" class="logo__a"><span class="logo__span">D</span>iana<span class="logo__span">C</span>ruz</a>
+      </div>
+      <div class="aside__toggler toggler">
+        <span class="toggler__span"></span>
+      </div>
+      <ul class="aside__nav nav">
+        <li class="nav__li"><a data-section="aside-nav" data-value="home" href="#home" class="nav__a nav__a--active">
+          <i class="nav__i fa fa-home"></i>Home
+        </a></li>
+        <li class="nav__li"><a data-section="aside-nav" data-value="about" href="#about" class="nav__a">
+          <i class="nav__i fa fa-user"></i>About
+        </a></li>
+        <li class="nav__li"><a data-section="aside-nav" data-value="services" href="#services" class="nav__a">
+          <i class="nav__i fa fa-list"></i>Services
+        </a></li>
+        <li class="nav__li"><a data-section="aside-nav" data-value="portfolio" href="#portfolio" class="nav__a">
+          <i class="nav__i fa fa-briefcase"></i>Portfolio
+        </a></li>
+        <li class="nav__li"><a data-section="aside-nav" data-value="contact" href="#contact" class="nav__a">
+          <i class="nav__i fa fa-comments"></i>Contact
+        </a></li>
+      </ul>
+      <div class="aside__language language">
+        <span class="language__en">EN</span>
+        <input class="language__check" aria-label="language" type="checkbox" value="language">
+        <span class="language__es">ES</span>
+      </div>
+    </div>
+    <!--?===========Main Content Start===========-->
+    <div class="main__content">
+      <!--***==========Home section=============-->
+      <section class="section home section--active" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home__lines home__lines-1"></div>
+            
+            <div class="home__info paddx-15">
+              <span class="home__hello" data-section="home" data-value="hello-text">Hi there!👋 my name is <h1 class="home__name">Diana Cruz</h1></span>
+              <div class="home__text-typing">
+                <span class="home__text-span" data-section="home" data-value="my-profession">I' m </span>
+                <span class="text__typing-span">
+                  <span class='typing__span'>Web designer</span>
+                </span>
+              </div>
+              <h2 class="home__description" data-section="home" data-value="profession-description">I am a frontend developer passionate about technology 😍. I have experience creating and designing responsive websites.</h2>
+              <a href="#portfolio" data-section="home" data-value="btn-homeToWorks" data-section-index="0" class="btn last-works"><i class="fa-solid fa-briefcase"></i> Last works</a>
+            </div>
+            <div class="home__img">
+              <img class="img__developer" src="images/home.webp" alt="Home Diana Cruz">
+            </div>
+            <div class="home__links">
+              <ul class="home__list">
+                <li class="home__list-item">
+                  <a href="https://github.com/dianacruzpro" target="_blank" class="item__container" aria-label="github" rel="noopener noreferrer">
+                    <div class="item__media">
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div fa-brands fa-github"></div>
+                    </div>
+                  </a>
+                </li>
+                <li class="home__list-item">
+                  <a href="https://www.linkedin.com/in/dianacruzpro/" target="_blank" class="item__container" aria-label="linkedin" rel="noopener noreferrer">
+                    <div class="item__media">
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div fa-brands fa-linkedin"></div>
+                    </div>
+                  </a>
+                </li>
+                <li class="home__list-item">
+                  <a href="https://www.instagram.com/coding_girl503/" target="_blank" aria-label="intagram" class="item__container" rel="noopener noreferrer"> 
+                    <div class="item__media">
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div fa-brands fa-instagram"></div>
+                    </div>
+                  </a>
+                </li>
+                <li class="home__list-item">
+                  <a href="https://twitter.com/DianaCruzPro" target="_blank" class="item__container" aria-label="twitter" rel="noopener noreferrer">
+                    <div class="item__media">
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div"></div>
+                      <div class="media__div fa-brands fa-twitter"></div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="home__lines home__lines-2"></div>
+          </div>
+        </div>
+      </section>
+      <!--***==========about section=============-->
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section__title paddx-15">
+              <h2 class="title__about section__title-h2" data-section="about" data-value="title-about">About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about__content paddx-15">
+              <div class="row">
+                <div class="about__text paddx-15">
+                  <div class="about__img">
+                    <img class="img__developer-about" src="images/home.webp" alt="Home Diana Cruz">
+                  </div>
+                  <div class="about__text-content">
+                    <h3 class="text__h3" data-section="about" data-value="title-text">I'm Diana, <span class='text__span'>Web Developer</span>👋</h3>
+                    <p class="text__p" data-section="about" data-value="text-about">Since 2020 I have experience in the area of web development. I also collaborate on projects such as Freelance FullStack. I'm more focused on the Frontend, but I also do backend. I enjoy carrying out the layout and interactivity of web interfaces, as well as optimization, for good positioning and loading performance of web sites and applications. I also have experience in the area of Social Media, Content Marketing and SEO.
+                    </p>
+                  </div>
+                  <a download="Resume Diana Cruz" href="Resume_Diana_Cruz.pdf" data-section-index="0" class="btn btn-resume"><i class="fa-solid fa-download"></i> Download CV</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="skills paddx-15">
+                  <h2 class="title skills skills__title" data-section="about" data-value="skills">Skills</h2>
+                  <div class="skills__container">
+                    <div class="skills__tabs">
+                      <div class="skill__header skill__active" data-target="#frontend">
+                        <i class="timeline__date-i fa-solid fa-code skill__icon"></i>
+                        <div>
+                          <h3 class="skill__h3" data-section="about" data-value="skill-title1">Frontend Developer</h3>
+                          <span class="skill__span" data-section="about" data-value="skill-subtitle1">More than 4 years</span>
+                        </div>
+                        <i class="fa-solid fa-angle-down skill__arrow"></i>
+                      </div>
+                      <div class="skill__header" data-target="#design">
+                        <i class="fa-solid fa-swatchbook skill__icon"></i>
+                        <div>
+                          <h3 class="skill__h3" data-section="about" data-value="skill-title2">UI / UX Design</h3>
+                          <span class="skill__span" data-section="about" data-value="skill-subtitle2">More than 4 years</span>
+                        </div>
+                        <i class="fa-solid fa-angle-down skill__arrow"></i>
+                      </div>
+                      <div class="skill__header" data-target="#backend">
+                        <i class="fa-solid fa-server skill__icon"></i>
+                        <div>
+                          <h3 class="skill__h3" data-section="about" data-value="skill-title3">Backend developer</h3>
+                          <span class="skill__span" data-section="about" data-value="skill-subtitle3">More than 2 years</span>
+                        </div>
+                        <i class="fa-solid fa-angle-down skill__arrow"></i>
+                      </div>
+                    </div>
+                    <div class="skills__content">
+                      <div class="skills__group skills__active" data-content id="frontend">
+                        <div class="skills__list">
+                          <div class="skill__item">
+                            <i class="fa-brands skill__item-icon html__icon fa-html5"></i>
+                            <h3 class="skill__item-title">HTML5</h3>
+                          </div>
+                          <div class="skill__item">
+                            <i class="fa-brands skill__item-icon css__icon fa-css3-alt"></i>
+                            <h3 class="skill__item-title">CSS3</h3>
+                          </div>
+                          <div class="skill__item">
+                            <i class="fa-brands skill__item-icon sass__icon fa-sass"></i>
+                            <h3 class="skill__item-title">SASS</h3>
+                          </div>
+                          <div class="skill__item">
+                            <i class="fa-brands skill__item-icon js__icon fa-js"></i>
+                            <h3 class="skill__item-title">JavaScript</h3>
+                          </div>
+                          <div class="skill__item">
+                            <i class="fa-brands skill__item-icon boostrap__icon fa-bootstrap"></i>
+                            <h3 class="skill__item-title">Bootstrap</h3>
+                          </div>
+                          <div class="skill__item">
+                            <i class="fa-brands skill__item-icon git__icon fa-git-alt"></i>
+                            <h3 class="skill__item-title">Git</h3>
+                          </div>
+                          <div class="skill__item">
+                            <i class="fa-brands skill__item-icon github__icon fa-github"></i>
+                            <h3 class="skill__item-title">Github</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skills__group" data-content id="design">
+                        <div class="skills__list">
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon" data-icon="logos:figma"></span>
+                            <h3 class="skill__item-title">Figma</h3>
+                          </div>
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon" data-icon="logos:adobe-photoshop"></span>
+                            <h3 class="skill__item-title">Photoshop</h3>
+                          </div>
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon" data-icon="logos:adobe-illustrator"></span>
+                            <h3 class="skill__item-title">illustrator</h3>
+                          </div>
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon adobe__icon" data-icon="cib:adobe"></span>
+                            <h3 class="skill__item-title">Adobe Suit</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skills__group" data-content id="backend">
+                        <div class="skills__list">
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon php__icon" data-icon="file-icons:php"></span>
+                            <h3 class="skill__item-title">PHP</h3>
+                          </div>
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon" data-icon="logos:java"></span>
+                            <h3 class="skill__item-title">Java</h3>
+                          </div>
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon csharp__icon" data-icon="teenyicons:c-sharp-solid"></span>
+                            <h3 class="skill__item-title">C sharp</h3>
+                          </div>
+                          <div class="skill__item">
+                            <span class="iconify skill__item-icon" data-icon="vscode-icons:file-type-mysql"></span>
+                            <h3 class="skill__item-title">MySQL</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="education paddx-15">
+                  <h3 class="title education__h3" data-section="about" data-value="title-education">Education</h3>
+                  <div class="row">
+                    <div class="timeline__box paddx-15">
+                      <div class="timeline shadow-dark">
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date1">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2019 - currently studying
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title1">Computer and Systems Engineering</h4>
+                          <p class="timeline__text" data-section="about" data-value="education-timeline-text1">Since 2019 I started studying and so far, I'm in the 7th cycle at the <strong>Pedagogical University of El Salvador</strong>.</p> 
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date2">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2021 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title2">Advance English Module 1-3</h4>
+                          <p class="timeline__text" data-section="about" data-value="education-timeline-text2">Putting my knowledge of advanced grammar into practice.</p> 
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date3">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2021 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title3">Robotics. Capucom-Insaforp</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date4">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2020 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title4">Video production with Adobe premiere. Ricaldone-Insaforp</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date5">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2019 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title5">Information Technology Security, Audit and Risks, COESAR3, ISACA.</h4>
+                          <p class="timeline__text" data-section="about" data-value="education-timeline-text5">Assess the security posture and IT infrastructure of an organization.</p> 
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date6">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2016 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title6">Creating Macromedia Dreamweaver Web Pages, CEFINSA, Adobe.</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date7">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2016 (1 year)
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title7">Computer maintenance, CEFINSA.</h4>
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="education-timeline-date8">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2015 - 2016
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="education-timeline-title8">Leadership Club, Glasswing International.</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience paddx-15">
+                  <h3 class="title" data-section="about" data-value="title-experience">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box paddx-15">
+                      <div class="timeline shadow-dark">
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <h3 class="timeline__date" data-section="about" data-value="experience-timeline-date1">
+                            <i class="timeline__date-i fa fa-calendar"></i>2020 - 2021
+                          </h3>
+                          <h4 class="timeline__title" data-section="about" data-value="experience-timeline-title1">Appointment Scheduler</h4>
+                          <p class="timeline__text" data-section="about" data-value="experience-timeline-text1">I worked as an appointment sheduler for people who need to renew or purshase transportation insurance, for the company, "<i><strong>Greater Midwest Transportation Insurance</strong></i>".</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--***==========services section=============-->
+      <section class="section services" id="services">
+        <div class="container">
+           <div class="row">
+            <div class="section__title paddx-15">
+              <h2 class="services__h2 section__title-h2" data-section="services" data-value="services-h2">Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="services__heading paddx-15">
+              <h2 class="service__h2" data-section="services" data-value="services-section">What I offer</h2>
+            </div>
+          </div>
+          <div class="services__container">
+            <div class="services__content">
+              <div class="services__head">
+                <i class='bx bx-code-block services__icon'></i>
+                <h3 class="services__title" data-section="services" data-value="services-title1">Frontend Web Programming</h3>
+              </div>
+              <span class="services__button" data-section="services" data-value="services-button">
+                View More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="fa-solid fa-xmark services__modal-close"></i>
+                  <h3 class="services__modal-title" data-section="services" data-value="services-modal-title1">Frontend Web Programming</h3>
+                  <p class="services__modal-description"  data-section="services" data-value="services-modal-description1">Development of sites and applications for web platforms. I help you build your project from start to finish: frontend, backend and database.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services__content">
+              <div class="services__head">
+                <i class='bx bx-devices services__icon'></i>
+                <h3 class="services__title" data-section="services" data-value="services-title2">Web Design and Layout</h3>
+              </div>
+              <span class="services__button" data-section="services" data-value="services-button">
+                View More <i class="fa-solid fa-arrow-right services__button-icon"></i> 
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="fa-solid fa-xmark services__modal-close"></i>
+                  <h3 class="services__modal-title" data-section="services" data-value="services-modal-title2">Web Design and Layout</h3>
+                  <p class="services__modal-description" data-section="services" data-value="services-modal-description2">Prototype and mock up your static designs and convert them into amazing responsive, optimal and accessible web sites and applications.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services__content">
+              <div class="services__head">
+                <i class='bx bx-loader-circle services__icon'></i>
+                <h3 class="services__title" data-section="services" data-value="services-title3">WPO</h3>
+              </div>
+                <span class="services__button" data-section="services" data-value="services-button">
+                  View More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+                </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="fa-solid fa-xmark services__modal-close"></i>
+                  <h3 class="services__modal-title" data-section="services" data-value="services-modal-title3">Web Performance Optimization</h3>
+                  <p class="services__modal-description"  data-section="services" data-value="services-modal-description3">I make your sites and web applications improve their load and response time.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services__content">
+              <div class="services__head">
+                <i class='bx bx-search-alt services__icon'></i>
+                <h3 class="services__title" data-section="services" data-value="services-title4">SEO</h3>
+              </div>
+              <span class="services__button" data-section="services" data-value="services-button">
+                View More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="fa-solid fa-xmark services__modal-close"></i>
+                  <h3 class="services__modal-title" data-section="services" data-value="services-modal-title4">Search Engine Optimisation</h3>
+                  <p class="services__modal-description"  data-section="services" data-value="services-modal-description4">🔎 I optimize your sites and web applications so that they improve your position in search engines.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services__content">
+              <div class="services__head">
+                <i class='bx bx-hash services__icon'></i>
+                <h3 class="services__title" data-section="services" data-value="services-title5">SMO</h3>
+              </div>
+              <span class="services__button" data-section="services" data-value="services-button">
+                View More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="fa-solid fa-xmark services__modal-close"></i>
+                  <h3 class="services__modal-title" data-section="services" data-value="services-modal-title5">Social Media Optimization <br> and Content Marketing</h3>
+                  <p class="services__modal-description"  data-section="services" data-value="services-modal-description5">📢 I help you choose the right digital channels to reach your ideal audience.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services__content">
+              <div class="services__head">
+                <i class='bx bx-server services__icon'></i>
+                <h3 class="services__title" data-section="services" data-value="services-title6">Web Hosting</h3>
+              </div>
+              <span class="services__button" data-section="services" data-value="services-button">
+                View More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="fa-solid fa-xmark services__modal-close"></i>
+                  <h3 class="services__modal-title" data-section="services" data-value="services-modal-title6">Web Hosting</h3>
+                  <p class="services__modal-description"  data-section="services" data-value="services-modal-description6">Don't you have a domain and web hosting for your project? 😲 <br> Don't worry about those technical things, I'll take care of it. 😉</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="testimonials__heading paddx-15">
+              <h2 class="testimonials__h2"  data-section="services" data-value="testimonials">Testimonials</h2>
+            </div>
+          </div>
+          <div class="testimonials__container swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class='bx bxs-quote-alt-left'></i>
+                </div>
+                <p class="testimonial__description" data-section="services" data-value="testimonial-description1">
+                  I've only been working with this website for 2 days and I feel deeply satisfied to promote my business with my page. With incredible functionalities and easy configuration. 
+                </p>
+                <h3 class="testimonial__date" data-section="services" data-value="testimonial-data1">December 27. 2021</h3>
+                <div class="testimonial__profile">
+                  <img src="images/client3.webp" alt="client - testimonial" class="testimonial__profile-img">
+              
+                  <div class="testimonial__profile-data">
+                    <span class="testimonial__profile-name" data-section="services" data-value="testimonial-name1">Sara Potter</span>
+                    <span class="testimonial__profile-detail" data-section="services" data-value="testimonial-detail1">Designer, company founder.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class='bx bxs-quote-alt-left'></i>
+                </div>
+                <p class="testimonial__description" data-section="services" data-value="testimonial-description2">
+                  A website is one of those tools that every entrepreneur should have. With this user-friendly and interactive website, I can now save time and money, so I can focus on other aspects of the business. Excellent!
+                </p>
+                <h3 class="testimonial__date" data-section="services" data-value="testimonial-data2">March 16. 2020</h3>
+                <div class="testimonial__profile">
+                  <img src="images/client1.webp" alt="client - testimonial" class="testimonial__profile-img">
+                  <div class="testimonial__profile-data">
+                    <span class="testimonial__profile-name" data-section="services" data-value="testimonial-name2">Marta Rivas</span>
+                    <span class="testimonial__profile-detail" data-section="services" data-value="testimonial-detail2">Director of a company</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class='bx bxs-quote-alt-left'></i>
+                </div>
+                <p class="testimonial__description" data-section="services" data-value="testimonial-description3">
+                  A friendly and complete website, at the right price!
+                </p>
+                <h3 class="testimonial__date" data-section="services" data-value="testimonial-data3">August 9. 2022</h3>
+                <div class="testimonial__profile">
+                  <img src="images/client2.webp" alt="client - testimonial" class="testimonial__profile-img">
+                  <div class="testimonial__profile-data">
+                    <span class="testimonial__profile-name" data-section="services" data-value="testimonial-name3">Daniel Ortega</span>
+                    <span class="testimonial__profile-detail" data-section="services" data-value="testimonial-detail3">Director of a company</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!--***==========portfolio section=============-->
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section__title paddx-15">
+              <h2  class="section__title-h2" data-section="portfolio" data-value="portfolio-h2">Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio__heading paddx-15">
+              <h2 class="portfolio__heading-h2" data-section="portfolio" data-value="heading-2">My last projects :</h2>
+            </div>
+          </div>
+          <div class="work__filters">
+            <span data-section="portfolio" data-value="filtro1" class="work__item active-work" data-filter="all">All</span>
+            <span data-section="portfolio" data-value="filtro2" class="work__item" data-filter=".landing">Landing Page</span>
+            <span data-section="portfolio" data-value="filtro3" class="work__item" data-filter=".site">WebSite</span>
+            <span data-section="portfolio" data-value="filtro4" class="work__item" data-filter=".component">Component</span>
+            <span data-section="portfolio" data-value="filtro5" class="work__item" data-filter=".game">Games</span>
+          </div>
+          <div class="work__container">
+            <div class="work__card mix landing">
+              <img src="images/christmas-page.webp" alt="Responsive Christmas Page" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work1-work-title">Christmas Page</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work1-detail-title">Responsive Christmas Web Page</h3>
+                <p class="details__description" data-section="portfolio" data-value="work1-detail-description">Christmas style web page, light/dark mode and fully responsive</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work1-detail-span1">July 27, 2022</span></li>
+                  <li>Techologies - <span>html sass javascript</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://responsive-christmas-page.netlify.app" target="_blank" rel="noopener noreferrer">www.christmasgift.com</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/DianaVCruz/christmas-page" target="_blank" rel="noopener noreferrer">Christmas Page</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix landing">
+              <img src="images/website-portfolio.webp" alt="WebSite and Personal Portfolio" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work2-work-title">WebSite Portfolio</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work2-detail-title">Responsive WebSite.</h3>
+                <p class="details__description" data-section="portfolio" data-value="work2-detail-description">This is my personal website where you can find information about my professional profile, my experience and skills, as well as the projects I have worked on.</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work2-detail-span1">May 3, 2022</span></li>
+                  <li>Techologies - <span>html css javascript</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://dianacruzpro.netlify.app" target="_blank" rel="noopener noreferrer">www.dianacruz.pro</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/DianaVCruz/DianaCruz-Portfolio" target="_blank" rel="noopener noreferrer">WebSite Portfolio</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix landing">
+              <img src="images/netflix.webp" alt="Netflix" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work3-work-title">Netflix Clone</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work3-detail-title"> Landing Page Netflix</h3>
+                <p class="details__description" data-section="portfolio" data-value="work3-detail-description">Imitation of the Netflix website for Computer and mobile</p>
+                <ul class="details__info">
+                  <li>Created - <span>19 aug 2022</span></li>
+                  <li>Techologies - <span>html sass js</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://netflix-clone-page-home.netlify.app" rel="noopener noreferrer">www.netflix.com</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/DianaVCruz/Netflix-Clone" rel="noopener noreferrer">Netflix Clone</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix site">
+              <img src="images/tapiceria.webp" alt="Website for upholstery" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work4-work-title">Upholstery WebSite</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work4-detail-title">Website for upholstery</h3>
+                <p class="details__description" data-section="portfolio" data-value="work4-detail-description">Connection to a database to manage the work. It also has an administration module for the site where you can do CRUD. In addition to being a site adapted to dark and light mode, it is completely responsive.</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work4-detail-span1">11 Aug 2022</span></li>
+                  <li>Techologies - <span>HTML5 CSS3 JavaScript PHP MySQL</span></li>
+                  <li>Role - <span>fullstack</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://demo.dianacruz.pro" rel="noopener noreferrer">www.tapiceriacruz.com</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/DianaVCruz/SitioWeb-Tapiceria" target="_blank" rel="noopener noreferrer">Upholstery WebSite</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix component">
+              <img src="images/dynamic-form-card.webp" alt="Dynamic form with card" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work5-work-title">Dynamic form</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work5-detail-title">Component</h3>
+                <p class="details__description" data-section="portfolio" data-value="work5-detail-description">Simulation of purchase, filling in the form with a card dynamically</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work5-detail-span1">24 Aug, 2022</span></li>
+                  <li>Techologies - <span>HTML SCSS JavaScript</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://credit-card-page.netlify.app" target="_blank" rel="noopener noreferrer">www.purchaseonline.com</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/DianaVCruz/Credit-card-form" target="_blank" rel="noopener noreferrer">Dynamic-form</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix game">
+              <img src="images/GalleryJSProjects.webp" alt="GalleryJSProjects" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work6-work-title">JS Projects</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work6-detail-title">Gallery Projects JS</h3>
+                <p class="details__description" data-section="portfolio" data-value="work6-detail-description">Projects worked with JavaScript, practicing with Fetch, local storage, template string and more...</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work6-detail-span1">20 Sept 2022</span></li>
+                  <li>Techologies - <span>html css JavaScript</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://galleryprojectsjs.netlify.app" target="_blank" rel="noopener noreferrer">www.GalleryProjectsJS.com</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/DianaVCruz/ProyectosJS" target="_blank" rel="noopener noreferrer">Repository Gallery Projects JS</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix component">
+              <img src="images/statspreview.webp" alt="" class="work__img">
+              <h3 class="work__title"  data-section="portfolio" data-value="work7-work-title">Stats preview</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work7-detail-title">Component for landinpages or services.</h3>
+                <p class="details__description" data-section="portfolio" data-value="work7-detail-description">Component with optimal design according to the screen size of your device.</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work7-detail-span1">2 oct 2022</span></li>
+                  <li>Techologies - <span>html css</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://stats-card-frontend-mentor.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/stats-card-component-frontend-mentor" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix component">
+              <img src="images/datastorage.webp" alt="" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work8-work-title">Data Storage</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work8-detail-title">Data Storage Component.</h3>
+                <p class="details__description" data-section="portfolio" data-value="work8-detail-description">Component with cloud storage design</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work8-detail-span1">2 oct 2022</span></li>
+                  <li>Techologies - <span>html scss</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://fylo-data-storage-component-fm.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/fylo-data-storage-component-fm" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix component">
+              <img src="images/faqcardsection.webp" alt="" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work9-work-title">FAQ Accordion Card</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work9-detail-title">FAQ Accordion Card Responsive</h3>
+                <p class="details__description" data-section="portfolio" data-value="work9-detail-description">Responsive FAQ section, to answer questions about your services.</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work9-detail-span1">4 oct 2022</span></li>
+                  <li>Techologies - <span>html scss javascript</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://faq-accordion-page-fm.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/faq-accordion-card-fm" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix component">
+              <img src="images/fourcardsection.webp" alt="" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work10-work-title">Four Card Feature</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work10-detail-title">Four Card Feature</h3>
+                <p class="details__description" data-section="portfolio" data-value="work10-detail-description"></p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work10-detail-span1">4 oct 2022</span></li>
+                  <li>Techologies - <span>html css</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://four-card-feature-fm.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/four-card-feature-fm" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix component">
+              <img src="images/articlecomponentemaster.webp" alt="" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work11-work-title">Article Component Master</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work11-detail-title">Article Component Master</h3>
+                <p class="details__description" data-section="portfolio" data-value="work11-detail-description"></p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work11-detail-span1">5 oct 2022</span></li>
+                  <li>Techologies - <span>html scss javascript</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://article-component-master-fm.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/article-component-master-fm" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix component">
+              <img src="images/productpreviewcard.webp" alt="" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work12-work-title">Product Preview Card</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work12-detail-title">Product preview component</h3>
+                <p class="details__description" data-section="portfolio" data-value="work12-detail-description">Product presentation card</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work12-detail-span1">10 oct 2022</span></li>
+                  <li>Techologies - <span>html css</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://product-review-component-fm.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/product-preview-component-fm" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix landing">
+              <img src="images/socialproof.webp" alt="" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work13-work-title">Social Proof Section</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work13-detail-title">Social Proof Section</h3>
+                <p class="details__description" data-section="portfolio" data-value="work13-detail-description">Page with customer reviews</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work13-detail-span1">12 oct 2022</span></li>
+                  <li>Techologies - <span>html css</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://challenge-social-proof.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/Social-proof-section-master" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix landing">
+              <img src="images/comingsoonpage.webp" alt="" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work14-work-title">Coming Soon Page</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work14-detail-title">Coming Soon Page Responsive</h3>
+                <p class="details__description" data-section="portfolio" data-value="work14-detail-description">Page with coming soon and register</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work14-detail-span1">13 oct 2022</span></li>
+                  <li>Techologies - <span>html css javascript</span></li>
+                  <li>Role - <span>frontend</span></li>
+                  <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="https://coming-soon-page-fm.netlify.app/" rel="noopener noreferrer" target="_blank">Netlify</a></span></li>
+                  <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/dianacruzpro/coming-soon-page-fm" rel="noopener noreferrer" target="_blank">Github</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--========Portfolio Popup========-->
+        <div class="portfolio__popup">
+          <div class="portfolio__popup-inner">
+            <div class="portfolio__popup-content">
+              <span class="portfolio__popup-close"><i class="fa-solid fa-xmark"></i></span>
+              <div class="pp__thumbnail">
+                <img src="images/comingsoon.webp" class="portfolio__popup-img">
+              </div>
+              <div class="portfolio__popup-info">
+                <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
+                <div class="portfolio__popup-body">
+                  <h3 class="details__title">App for tecnology & services.</h3>
+                  <p class="details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, tempore?</p>
+                  <ul class="details__info">
+                    <li>Created - <span>4 dec 2020</span></li>
+                    <li>Techologies - <span>html css</span></li>
+                    <li>Role - <span>frontend</span></li>
+                    <li><i class="fa-brands fa-chrome"></i> Demo - <span><a href="#" rel="noopener noreferrer">www.domain.com</a></span></li>
+                    <li><i class="fa-brands fa-github"></i> Code - <span><a href="#" rel="noopener noreferrer">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--***==========contact section=============-->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section__title paddx-15">
+              <h2 class="section__title-h2" data-section="contact" data-value="contact-h2">Contact Me</h2>
+            </div>
+          </div>
+           
+          <div class="contact__flex">
+            
+            <div class="row row-contact">
+              <div class="contact__heading paddx-15">
+                <h3 class="contact__title" data-section="contact" data-value="contact-subtitle1">Have You Any Questions ?</h3>
+                <h4 class="contact__subtitle"  data-section="contact" data-value="contact-subtitle2">I'm at your services</h4>
+              </div>
+              
+              <form action="https://formsubmit.co/contacto@dianacruz.pro" method="POST" id="form" class="contact__form">
+                <div class="row">
+                  <div class="form__item col__6 paddx-15">
+                    <div class="form__group">
+                      <input name="name" type="text" class="form__control" placeholder="Name" id="name" required>
+                    </div>
+                  </div>
+                  <div class="form__item col__6 paddx-15">
+                    <div class="form__group">
+                      <input name="email" type="email" class="form__control" placeholder="Email" id="email" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form__item col__12 paddx-15">
+                    <div class="form__group">
+                      <input name="subject" type="text" class="form__control" placeholder="Subject" id="subject" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form__item col__12 paddx-15">
+                    <div class="form__group">
+                      <textarea name="message" class="form__control form__control-textarea" id="message" placeholder="Message" cols="30" rows="10" required></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form__item col__12 paddx-15">
+                    <div class="form__group">
+                      <button type="submit" class="btn btn__form" id="button" data-section="contact" data-value="value-submit"><i class='fa-solid fa-paper-plane'></i> Send Message</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+              <script>
+                emailjs.init('DNjeI9xG0HR1IiMAP')
+              </script>
+            </div>
+            <div class="row">
+              <div class="contact__container">
+                <div class="contact__content">
+                    <div class="contact__card">
+                      <i class='bx bxl-linkedin contact__card-icon' ></i>
+                      <h3 class="contact__card-title">Linkedin</h3>
+                      <span class="contact__data">Diana Cruz</span>
+                      <a href="https://www.linkedin.com/in/diana-cruz-ba0576211/" 
+                        class="contact__button" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        data-section="contact" 
+                        data-value="btn-contact">
+                        Write me <i class="fa-solid fa-arrow-right contact__button-icon"></i>
+                      </a>
+                    </div>
+                    <div class="contact__card">
+                      <i class='bx bxl-whatsapp contact__card-icon' ></i>
+                      <h3 class="contact__card-title">Whatsapp</h3>
+                      <span class="contact__data">Diana Cruz</span>
+                      <a href="https://wa.me/50364512514?text=Hola,%20¿Estás%20disponible%20para%20un%20nuevo%20proyecto?" 
+                        class="contact__button" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        data-section="contact" 
+                        data-value="btn-contact">
+                        Write me <i class="fa-solid fa-arrow-right contact__button-icon"></i>
+                      </a>
+                    </div>
+                    <div class="contact__card">
+                      <i class='bx bxl-instagram contact__card-icon' ></i>
+                      <h3 class="contact__card-title">Instagram</h3>
+                      <span class="contact__data">coding_girl503</span>
+                      <a href="https://www.instagram.com/coding_girl503/" 
+                        class="contact__button" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        data-section="contact" 
+                        data-value="btn-contact">
+                        Write me <i class="fa-solid fa-arrow-right contact__button-icon"></i>
+                      </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--?===========Main Content End===========-->
+  </div>
+  <!--!===========Main Container End===========-->
+  <!--==========Style Switches Start==========-->
+  <div class="style__switcher">
+    <div class="style__switcher-toggler s__icon">
+      <i class="s__icon-i fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day__night s__icon">
+      <i class="s__icon-i fas "></i>
+    </div>
+    <h4 class="style__switcher-h4">Colors</h4>
+    <div class="colors">
+      <span class="color__span" style="--bg-color:#ffae00" onclick="setActiveStyle('color-1')"></span>
+      <span class="color__span" style="--bg-color:#ff5304" onclick="setActiveStyle('color-2')"></span>
+      <span class="color__span" style="--bg-color:#00c056" onclick="setActiveStyle('color-3')"></span>
+      <span class="color__span" style="--bg-color:#105cd4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color__span" style="--bg-color:#a900dd" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!--==========Style Switches End==========-->
+</body>
+</html>
