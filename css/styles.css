@@ -163,6 +163,7 @@ button{cursor: pointer;}
   white-space: nowrap;
   border: none;
   background-color: var(--skin-color);
+  max-width: min-content;
   transition: all 0.3s ease;
 }
 .btn:hover{box-shadow: 0px 0px 8px 2px var(--skin-color);}
@@ -400,18 +401,18 @@ button{cursor: pointer;}
 
 /*? =========Home=========  */
 .home{min-height: 100vh;display: flex;color: var(--text-black-900);}
-.home__info{flex: 0 0 60%;max-width: 60%;}
-.home__hello{font-size: 28px;margin: 0.93rem 0;font-weight: 800;}
+.home__info{flex: 0 0 60%;max-width: 60%; display: flex; flex-flow: column nowrap; justify-content: center;}
+.home__hello{font-size: 1.75rem;margin: 0.93rem 0;font-weight: 800;}
 .typing__span{color: var(--skin-color);}
 .home__description{
   margin-bottom: 4.3rem;
-  font-size: 0.93rem;
+  font-size: 1.2rem;
   font-weight:400;
 }
 .home__name{
   display: inline-block;
   font-family: 'Oleo Script Swash Caps', cursive, sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 100;
   color: var(--skin-color);
 }
@@ -419,7 +420,7 @@ button{cursor: pointer;}
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0.93rem 0 ;
   margin-right: .5rem;
   font-weight: 700;
@@ -727,9 +728,13 @@ button{cursor: pointer;}
 .timeline__title{
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 0.93rem;
   text-transform: capitalize;
   color: var(--text-black-900);
+}
+.timeline__subtitle{
+  margin-bottom: 0.93rem;
+  color: var(--skin-color);
+  font-weight: 300;
 }
 .timeline__text{
   line-height: 1.56rem;
@@ -1337,7 +1342,7 @@ button{cursor: pointer;}
   .services__title{font-size: 1.2em; margin-top: .5em;}
   .work__filters{flex-wrap: wrap; gap: .5em;}
   .testimonial__card{padding: 1rem;}
-  .home__text-typing,.home__hello{font-size: 1.3rem;}
+  .home__text-typing,.home__hello{font-size: 1.5rem;}
   .home__description{font-size: 1rem; margin-bottom: 2rem;}
 }
 @media screen and (max-height:500px){
