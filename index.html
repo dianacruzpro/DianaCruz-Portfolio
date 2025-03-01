@@ -20,9 +20,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <!--=========Style Switcher============-->
   <link rel="stylesheet" href="css/skins/color-1.css" class="alternate__style" title="color-1" disabled>
-  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate__style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate__style" title="color-2" >
   <link rel="stylesheet" href="css/skins/color-3.css" class="alternate__style" title="color-3" disabled>
-  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate__style" title="color-4" >
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate__style" title="color-4" disabled>
   <link rel="stylesheet" href="css/skins/color-5.css" class="alternate__style" title="color-5" disabled>
 
   <!-- ===========  JS FILES =========== -->
@@ -66,9 +66,11 @@
         <li class="nav__li"><a data-section="aside-nav" data-value="portfolio" href="#portfolio" class="nav__a">
           <i class="nav__i fa fa-briefcase"></i>Portfolio
         </a></li>
+        <!--
         <li class="nav__li"><a data-section="aside-nav" data-value="contact" href="#contact" class="nav__a">
           <i class="nav__i fa fa-comments"></i>Contact
         </a></li>
+        -->
       </ul>
       <div class="aside__language language">
         <span class="language__en">EN</span>
@@ -92,12 +94,12 @@
                   <span class='typing__span'>Web designer</span>
                 </span>
               </div>
-              <h2 class="home__description" data-section="home" data-value="profession-description">I am a frontend developer passionate about technology 😍. I have experience creating and designing responsive websites.</h2>
+              <h2 class="home__description" data-section="home" data-value="profession-description">I create intuitive, optimized, and functional interfaces, combining design and technology to deliver innovative solutions. 🚀</h2>
               <a href="#portfolio" data-section="home" data-value="btn-homeToWorks" data-section-index="0" class="btn last-works"><i class="fa-solid fa-briefcase"></i> Last works</a>
             </div>
             <div class="home__img">
               <span class="img__developer--circle"></span>
-              <img class="img__developer" src="images/home.webp" alt="Home Diana Cruz">
+              <img loading="lazy" class="img__developer" src="images/home.webp" alt="Home Diana Cruz">
             </div>
             <div class="home__links">
               <ul class="home__list">
@@ -143,14 +145,14 @@
                 <div class="about__text paddx-15">
                   <div class="about__img">
                     <span class="img__developer--circle"></span>
-                    <img class="img__developer-about" src="images/home.webp" alt="Home Diana Cruz">
+                    <img loading="lazy" class="img__developer-about" src="images/home.webp" alt="Home Diana Cruz">
                   </div>
                   <div class="about__text-content">
-                    <h3 class="text__h3" data-section="about" data-value="title-text">I'm Diana, <span class='text__span'>Web Developer</span>👋</h3>
-                    <p class="text__p" data-section="about" data-value="text-about">Since 2020 I have experience in the area of web development. I also collaborate on projects such as Freelance FullStack. I'm more focused on the Frontend, but I also do backend. I enjoy carrying out the layout and interactivity of web interfaces, as well as optimization, for good positioning and loading performance of web sites and applications. I also have experience in the area of Social Media, Content Marketing and SEO.
+                    <h3 class="text__h3" data-section="about" data-value="title-text">I'm <span class='text__span'>Diana Cruz</span>👋</h3>
+                    <p class="text__p" data-section="about" data-value="text-about">Since 2020, I have been working in web development, specializing in frontend technologies while also handling backend tasks when needed. <span class="text__span">As a Frontend Developer</span>, I focus on building responsive, interactive, and optimized web interfaces, ensuring a seamless user experience and high performance. <span class="text__span">As a Web Designer</span>, I create visually appealing layouts with a strong emphasis on usability and accessibility. Additionally, <span class="text__span">as a Power Platform Developer</span>, I develop automated solutions and business applications using Power Apps and Power Automate to enhance productivity and efficiency.
                     </p>
                   </div>
-                  <a download="Resume Diana Cruz" href="Resume_Diana_Cruz.pdf" data-section-index="0" class="btn btn-resume"><i class="fa-solid fa-download"></i> Download CV</a>
+                  <a download="Resume Diana Cruz" href="Resume_DianaCruz.pdf" data-section-index="0" class="btn btn-resume"><i class="fa-solid fa-download"></i> Download CV</a>
                 </div>
               </div>
               <div class="row">
@@ -214,6 +216,18 @@
                             <i class="fa-brands skill__item-icon github__icon fa-github"></i>
                             <h3 class="skill__item-title">Github</h3>
                           </div>
+                          <div class="skill__item">
+                            <img class="skill__item-icon" src="images/powerapps.webp" alt="power apps">
+                            <h3 class="skill__item-title">Power Apps</h3>
+                          </div>
+                          <div class="skill__item">
+                            <img class="skill__item-icon" src="images/powerautomate.webp"power automate">
+                            <h3 class="skill__item-title">Power Automate</h3>
+                          </div>
+                          <div class="skill__item">
+                            <img class="skill__item-icon" src="images/Power-BI.webp" alt="power bi">
+                            <h3 class="skill__item-title">Power BI</h3>
+                          </div>
                         </div>
                       </div>
                       <div class="skills__group" data-content id="design">
@@ -239,12 +253,28 @@
                       <div class="skills__group" data-content id="backend">
                         <div class="skills__list">
                           <div class="skill__item">
+                            <img class="skill__item-icon" src="images/csharp.webp" alt="csharp">
+                            <h3 class="skill__item-title">CSHARP</h3>
+                          </div>
+                          <div class="skill__item">
                             <span class="iconify skill__item-icon php__icon" data-icon="file-icons:php"></span>
                             <h3 class="skill__item-title">PHP</h3>
                           </div>
                           <div class="skill__item">
                             <span class="iconify skill__item-icon" data-icon="vscode-icons:file-type-mysql"></span>
                             <h3 class="skill__item-title">MySQL</h3>
+                          </div>
+                          <div class="skill__item">
+                            <img class="skill__item-icon" src="images/SharePoint.webp" alt="SharePoint">
+                            <h3 class="skill__item-title">SharePoint</h3>
+                          </div>
+                          <div class="skill__item">
+                            <img class="skill__item-icon" src="images/sql-server.webp" alt="SQL Server">
+                            <h3 class="skill__item-title">SQL Server</h3>
+                          </div>
+                          <div class="skill__item">
+                            <img class="skill__item-icon" src="images/oracle.webp" alt="Oracle">
+                            <h3 class="skill__item-title">Oracle</h3>
                           </div>
                         </div>
                       </div>
@@ -258,6 +288,25 @@
                   <div class="row">
                     <div class="timeline-box paddx-15">
                       <div class="timeline shadow-dark">
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <span class="timeline__date" data-section="about" data-value="experience-timeline-date1">
+                            <i class="timeline__date-i fa fa-calendar"></i>2024 - 2025 (1 Year)
+                          </span>
+                          <h3 class="timeline__title" data-section="about" data-value="experience-timeline-title3">Quality Power platform developer.</h3>
+                          <h4 class="timeline__subtitle" data-section="about" data-value="experience-timeline-subtitle3">Hanes Brands Inc.</h4>
+                          <p class="timeline__text" data-section="about" data-value="experience-timeline-text3">As a Quality Power Platform Developer at Hanes Brands Inc., I was responsible for developing, optimizing, and automating business applications focused on quality management and internal processes. My main responsibilities included:</p>
+                          <ul class="timeline__tasks">
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-1">Developing and maintaining Power Apps solutions, enhancing efficiency in data collection and quality analysis in textile production.</li>
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-2">Implementing ETL processes in SQL Server and Visual Studio to integrate and consolidate critical data from multiple plants.</li>
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-3">Optimizing and debugging application code, ensuring performance and scalability in solutions like Measurements APP and Regional Audit & EOL APP.</li>
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-4">Managing access and security in enterprise platforms, ensuring data integrity and proper usage.</li>
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-5">Automating reports in Excel and Power BI, providing real-time insights for better decision-making.</li>
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-6">Creating technical documentation for key applications such as Mercury APP, including user guides and installation manuals.</li>
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-7">Translating and adapting systems, making them accessible to a diverse, multilingual user base.</li>
+                            <li class="timeline__task" data-section="about" data-value="experience-timeline-task3-8">Automating HR processes, streamlining recruitment workflows using Excel and Microsoft Forms.</li>
+                          </ul>
+                        </div>
                         <div class="timeline__item">
                           <div class="circle__dot"></div>
                           <span class="timeline__date" data-section="about" data-value="experience-timeline-date1">
@@ -281,6 +330,8 @@
                     
                   </div>
                 </div>
+              </div>
+              <div class="row">
                 <div class="education paddx-15">
                   <h3 class="title education__h3" data-section="about" data-value="title-education">Education</h3>
                   <div class="row">
@@ -293,7 +344,16 @@
                           </span>
                           <h3 class="timeline__title" data-section="about" data-value="education-timeline-title1">Computer and Systems Engineering</h3>
                           <h4 class="timeline__subtitle" data-section="about" data-value="education-timeline-subtitle1">Universidad Pedagógica de el Salvador.</h4>
-                          <p class="timeline__text" data-section="about" data-value="education-timeline-text1">Currently studying cicle 9 out of 10.</p> 
+                          <p class="timeline__text" data-section="about" data-value="education-timeline-text1">Currently studying cicle 10 out of 10.</p> 
+                        </div>
+                        <div class="timeline__item">
+                          <div class="circle__dot"></div>
+                          <span class="timeline__date" data-section="about" data-value="education-timeline-date3">
+                            <i class="timeline__date-i fa fa-calendar"></i> 2024 - (2 months)
+                          </span>
+                          <h3 class="timeline__title" data-section="about" data-value="education-timeline-title3">Management Skills</h3>
+                          <h4 class="timeline__subtitle" data-section="about" data-value="education-timeline-subtitle3">Hanes Brands Inc. - Training Show.</h4>
+                          <p class="timeline__text" data-section="about" data-value="education-timeline-text3">Specialized training in leadership, assertive communication, strategic and financial planning.</p> 
                         </div>
                         <div class="timeline__item">
                           <div class="circle__dot"></div>
@@ -315,50 +375,12 @@
                         </div>
                         <div class="timeline__item">
                           <div class="circle__dot"></div>
-                          <span class="timeline__date" data-section="about" data-value="education-timeline-date3">
-                            <i class="timeline__date-i fa fa-calendar"></i> 2021 (1 year)
-                          </span>
-                          <h3 class="timeline__title" data-section="about" data-value="education-timeline-title3">Robotics Course. </h3>
-                          <h4 class="timeline__subtitle" data-section="about" data-value="education-timeline-subtitle3">Capucom-Insaforp</h4>
-                        </div>
-                        <div class="timeline__item">
-                          <div class="circle__dot"></div>
-                          <span class="timeline__date" data-section="about" data-value="education-timeline-date4">
-                            <i class="timeline__date-i fa fa-calendar"></i> 2020 (1 year)
-                          </span>
-                          <h3 class="timeline__title" data-section="about" data-value="education-timeline-title4">Video production with Adobe premiere.</h3>
-                          <h4 class="timeline__subtitle">Ricaldone-Insaforp</h4>
-                        </div>
-                        <div class="timeline__item">
-                          <div class="circle__dot"></div>
                           <span class="timeline__date" data-section="about" data-value="education-timeline-date5">
                             <i class="timeline__date-i fa fa-calendar"></i> 2019 (1 year)
                           </span>
                           <h3 class="timeline__title" data-section="about" data-value="education-timeline-title5">Information Technology Security, Audit and Risks, COESAR3, ISACA.</h3>
                           <h4 class="timeline__subtitle" data-section="about" data-value="education-timeline-subtitle5">Pedagogical University of El Salvador.</h4>
                           <p class="timeline__text" data-section="about" data-value="education-timeline-text5">Assess the security posture and IT infrastructure of an organization.</p> 
-                        </div>
-                        <div class="timeline__item">
-                          <div class="circle__dot"></div>
-                          <span class="timeline__date" data-section="about" data-value="education-timeline-date6">
-                            <i class="timeline__date-i fa fa-calendar"></i> 2016 (1 year)
-                          </span>
-                          <h3 class="timeline__title" data-section="about" data-value="education-timeline-title6">Creating Macromedia Dreamweaver Web Pages, CEFINSA, Adobe.</h3>
-                        </div>
-                        <div class="timeline__item">
-                          <div class="circle__dot"></div>
-                          <span class="timeline__date" data-section="about" data-value="education-timeline-date7">
-                            <i class="timeline__date-i fa fa-calendar"></i> 2016 (1 year)
-                          </span>
-                          <h3 class="timeline__title" data-section="about" data-value="education-timeline-title7">Computer maintenance, CEFINSA.</h3>
-                        </div>
-                        <div class="timeline__item">
-                          <div class="circle__dot"></div>
-                          <span class="timeline__date" data-section="about" data-value="education-timeline-date8">
-                            <i class="timeline__date-i fa fa-calendar"></i> 2015 - 2016
-                          </span>
-                          <h3 class="timeline__title" data-section="about" data-value="education-timeline-title8">Leadership Club.</h3>
-                          <h4 class="timeline__subtitle" data-section="about" data-value="education-timeline-subtitle8">Glasswing International.</h4>
                         </div>
                       </div>
                     </div>
@@ -496,7 +518,7 @@
                 </p>
                 <h3 class="testimonial__date" data-section="services" data-value="testimonial-data1">December 27. 2021</h3>
                 <div class="testimonial__profile">
-                  <img src="images/client3.webp" alt="client - testimonial" class="testimonial__profile-img">
+                  <img loading="lazy" src="images/client3.webp" alt="client - testimonial" class="testimonial__profile-img">
               
                   <div class="testimonial__profile-data">
                     <span class="testimonial__profile-name" data-section="services" data-value="testimonial-name1">Sara Potter</span>
@@ -513,7 +535,7 @@
                 </p>
                 <h3 class="testimonial__date" data-section="services" data-value="testimonial-data2">March 16. 2020</h3>
                 <div class="testimonial__profile">
-                  <img src="images/client1.webp" alt="client - testimonial" class="testimonial__profile-img">
+                  <img loading="lazy" src="images/client1.webp" alt="client - testimonial" class="testimonial__profile-img">
                   <div class="testimonial__profile-data">
                     <span class="testimonial__profile-name" data-section="services" data-value="testimonial-name2">Marta Rivas</span>
                     <span class="testimonial__profile-detail" data-section="services" data-value="testimonial-detail2">Director of a company</span>
@@ -529,7 +551,7 @@
                 </p>
                 <h3 class="testimonial__date" data-section="services" data-value="testimonial-data3">August 9. 2022</h3>
                 <div class="testimonial__profile">
-                  <img src="images/client2.webp" alt="client - testimonial" class="testimonial__profile-img">
+                  <img loading="lazy" src="images/client2.webp" alt="client - testimonial" class="testimonial__profile-img">
                   <div class="testimonial__profile-data">
                     <span class="testimonial__profile-name" data-section="services" data-value="testimonial-name3">Daniel Ortega</span>
                     <span class="testimonial__profile-detail" data-section="services" data-value="testimonial-detail3">Director of a company</span>
@@ -559,11 +581,12 @@
             <span data-section="portfolio" data-value="filtro2" class="work__item" data-filter=".landing">Landing Page</span>
             <span data-section="portfolio" data-value="filtro3" class="work__item" data-filter=".site">WebSite</span>
             <span data-section="portfolio" data-value="filtro4" class="work__item" data-filter=".component">Component</span>
-            <span data-section="portfolio" data-value="filtro5" class="work__item" data-filter=".game">Games</span>
+            <span data-section="portfolio" data-value="filtro5" class="work__item" data-filter=".powerplatform">Power Platform</span>
+            <!-- <span data-section="portfolio" data-value="filtro5" class="work__item" data-filter=".game">Games</span> -->
           </div>
           <div class="work__container">
             <div class="work__card mix landing">
-              <img src="images/christmas-page.webp" alt="Responsive Christmas Page" class="work__img">
+              <img loading="lazy" src="images/christmas-page.webp" alt="Responsive Christmas Page" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work1-work-title">Christmas Page</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -581,7 +604,7 @@
               </div>
             </div>
             <div class="work__card mix landing">
-              <img src="images/website-portfolio.webp" alt="WebSite and Personal Portfolio" class="work__img">
+              <img loading="lazy" src="images/website-portfolio.webp" alt="WebSite and Personal Portfolio" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work2-work-title">WebSite Portfolio</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -599,7 +622,7 @@
               </div>
             </div>
             <!-- <div class="work__card mix landing">
-              <img src="images/netflix.webp" alt="Netflix" class="work__img">
+              <img loading="lazy" src="images/netflix.webp" alt="Netflix" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work3-work-title">Netflix Clone</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -617,7 +640,7 @@
               </div>
             </div> -->
             <div class="work__card mix site">
-              <img src="images/tapiceria.webp" alt="Website for upholstery" class="work__img">
+              <img loading="lazy" src="images/tapiceria.webp" alt="Website for upholstery" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work4-work-title">Upholstery WebSite</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -635,7 +658,7 @@
               </div>
             </div>
             <div class="work__card mix component">
-              <img src="images/dynamic-form-card.webp" alt="Dynamic form with card" class="work__img">
+              <img loading="lazy" src="images/dynamic-form-card.webp" alt="Dynamic form with card" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work5-work-title">Dynamic form</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -652,8 +675,8 @@
                 </ul>
               </div>
             </div>
-            <div class="work__card mix game">
-              <img src="images/GalleryJSProjects.webp" alt="GalleryJSProjects" class="work__img">
+            <!-- <div class="work__card mix game">
+              <img loading="lazy" src="images/GalleryJSProjects.webp" alt="GalleryJSProjects" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work6-work-title">JS Projects</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -669,9 +692,9 @@
                   <li><i class="fa-brands fa-github"></i> Code - <span><a href="https://github.com/DianaVCruz/ProyectosJS" target="_blank" rel="noopener noreferrer">Repository Gallery Projects JS</a></span></li>
                 </ul>
               </div>
-            </div>
+            </div> -->
             <div class="work__card mix component">
-              <img src="images/statspreview.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/statspreview.webp" alt="" class="work__img">
               <h3 class="work__title"  data-section="portfolio" data-value="work7-work-title">Stats preview</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -689,7 +712,7 @@
               </div>
             </div>
             <div class="work__card mix component">
-              <img src="images/datastorage.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/datastorage.webp" alt="" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work8-work-title">Data Storage</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -707,7 +730,7 @@
               </div>
             </div>
             <div class="work__card mix component">
-              <img src="images/faqcardsection.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/faqcardsection.webp" alt="" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work9-work-title">FAQ Accordion Card</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -725,7 +748,7 @@
               </div>
             </div>
             <div class="work__card mix component">
-              <img src="images/fourcardsection.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/fourcardsection.webp" alt="" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work10-work-title">Four Card Feature</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -743,7 +766,7 @@
               </div>
             </div>
             <div class="work__card mix component">
-              <img src="images/articlecomponentemaster.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/articlecomponentemaster.webp" alt="" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work11-work-title">Article Component Master</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -761,7 +784,7 @@
               </div>
             </div>
             <div class="work__card mix component">
-              <img src="images/productpreviewcard.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/productpreviewcard.webp" alt="" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work12-work-title">Product Preview Card</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -779,7 +802,7 @@
               </div>
             </div>
             <div class="work__card mix landing">
-              <img src="images/socialproof.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/socialproof.webp" alt="" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work13-work-title">Social Proof Section</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -797,7 +820,7 @@
               </div>
             </div>
             <div class="work__card mix landing">
-              <img src="images/comingsoonpage.webp" alt="" class="work__img">
+              <img loading="lazy" src="images/comingsoonpage.webp" alt="" class="work__img">
               <h3 class="work__title" data-section="portfolio" data-value="work14-work-title">Coming Soon Page</h3>
               <span class="work__button" data-section="portfolio" data-value="work-button">View more
                 <i class="fa-solid fa-arrow-right work__button-icon"></i>
@@ -814,6 +837,54 @@
                 </ul>
               </div>
             </div>
+            <div class="work__card mix powerplatform">
+              <img loading="lazy" src="images/Flujo-NC.webp" alt="Automatización de procesos" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work14-work-title">Automation of processes</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work14-detail-title">Optimization of Access Control with Power Automate</h3>
+                <p class="details__description" data-section="portfolio" data-value="work14-detail-description">The flow validates requests, sends approvals, and grants access automatically, reducing processing times and enhancing security.</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work14-detail-span1">20 oct 2024</span></li>
+                  <li>Techologies - <span>Power Automate - Microsoft Forms - SharePoint - Active Directory</span></li>
+                  <li>Role - <span>Power Platform Developer</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix powerplatform">
+              <img loading="lazy" src="images/PM-APP.webp" alt="Automatización de procesos" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work14-work-title">Project Management</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work14-detail-title">Automation and Project Control</h3>
+                <p class="details__description" data-section="portfolio" data-value="work14-detail-description">TThis project was developed to facilitate project management using Power Platform tools. A solution was created that allows teams to plan, track progress, and manage tasks efficiently. The platform includes an interactive dashboard where users can assign tasks, set deadlines, and collaborate in real-time. By integrating Power Automate, reminders and notifications are automated, ensuring all team members stay updated on progress. This solution optimizes collaboration and enhances project visibility.</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work14-detail-span1">28 Nov 2024</span></li>
+                  <li>Techologies - <span>Power Automate - Forms - SharePoint - Teams</span></li>
+                  <li>Role - <span>Power Platform Developer</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="work__card mix powerplatform">
+              <img loading="lazy" src="images/NP_APP.webp" alt="Automatización de procesos" class="work__img">
+              <h3 class="work__title" data-section="portfolio" data-value="work14-work-title">Non Conformities Management App</h3>
+              <span class="work__button" data-section="portfolio" data-value="work-button">View more
+                <i class="fa-solid fa-arrow-right work__button-icon"></i>
+              </span>
+              <div class="portfolio__item-details">
+                <h3 class="details__title" data-section="portfolio" data-value="work14-detail-title">Streamlining Quality Assurance in Textile Manufacturing</h3>
+                <p class="details__description" data-section="portfolio" data-value="work14-detail-description">The "Non Conformities" app was developed to effectively manage and track non-conformities in the quality control processes of a textile manufacturing plant. This application allows quality assurance teams to report, categorize, and monitor non-conformities in real-time. Users can log detailed information about defects, assign corrective actions, and track progress through a user-friendly interface. The app also integrates automated notifications and reports to ensure timely resolution of issues and continuous improvement in quality standards.</p>
+                <ul class="details__info">
+                  <li>Created - <span data-section="portfolio" data-value="work14-detail-span1">30 April 2024</span></li>
+                  <li>Techologies - <span>Power Automate - Forms - SharePoint - Teams</span></li>
+                  <li>Role - <span>Power Platform Developer</span></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <!--========Portfolio Popup========-->
@@ -822,7 +893,7 @@
             <div class="portfolio__popup-content">
               <span class="portfolio__popup-close"><i class="fa-solid fa-xmark"></i></span>
               <div class="pp__thumbnail">
-                <img src="images/comingsoon.webp" class="portfolio__popup-img">
+                <img loading="lazy" src="images/comingsoon.webp" class="portfolio__popup-img">
               </div>
               <div class="portfolio__popup-info">
                 <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
@@ -843,6 +914,8 @@
         </div>
       </section>
       <!--***==========contact section=============-->
+      <!--
+      
       <section class="section contact" id="contact">
         <div class="container">
           <div class="row">
@@ -947,6 +1020,7 @@
           </div>
         </div>
       </section>
+      -->
     </div>
     <!--?===========Main Content End===========-->
   </div>

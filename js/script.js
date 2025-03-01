@@ -1,6 +1,6 @@
 /**================Typing animation============== */
 var typed = new Typed(".typing__span",{
-  strings:["","Frontend Developer","Web Designer","UI/UX Designer"],
+  strings:["","Frontend Web Developer","Web Designer","Power Platform Developer"],
   typeSpeed:70,
   BackSpeed:60,
   loop:true
